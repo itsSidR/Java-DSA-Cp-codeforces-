@@ -9,5 +9,6 @@ class myFirst
         System.out.println("What is your name?");
         name = s.nextLine();
         System.out.println("Welcome " + name);
+        s.close();
     }
 }

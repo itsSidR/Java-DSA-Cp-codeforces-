@@ -11,5 +11,6 @@ class calcArea
         height = s.nextFloat();
         area = base/(2*height);
         System.out.println("Area of triangle is: "+area);
+        s.close();
     }
 }

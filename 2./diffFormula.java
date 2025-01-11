@@ -15,5 +15,6 @@ public class diffFormula
     result = s*(s-a)*(s-b)*(s-c);
     area = Math.sqrt(result);
     System.out.println("Area of the triangle: "+ area);
+    sc.close();
     }    
 }
